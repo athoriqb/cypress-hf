@@ -1,0 +1,22 @@
+{
+  "name": "cypress-hf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athoriqb/cypress-hf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athoriqb/cypress-hf/issues"
+  },
+  "homepage": "https://github.com/athoriqb/cypress-hf#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
