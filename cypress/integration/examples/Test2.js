@@ -16,9 +16,9 @@ describe("My First Test suite", () => {
       // looping  
       cy.get(".products")
         .find(".product")
-        .each(($el, index, $list) => {
-
-          const productName=$el.find("h4.product-name").text()
+        .each(function ($el) {
+          
+          const productName = $el.find("h4.product-name").text()
           if (productName.includes("Cashews")) {
             cy.wrap($el).find("button").click()
           }
